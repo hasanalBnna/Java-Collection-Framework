@@ -44,7 +44,12 @@ public class Main {
     vector.add("15");
     System.out.println("Vector= "+vector);
     
-    
+    //Stack 
+    Stack<Integer> stack= new Stack<>();
+    stack.push(10);
+    stack.push(10);
+    stack.push(20);
+    System.out.println("Stack= "+stack);
     }
     
 }
