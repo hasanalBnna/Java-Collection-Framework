@@ -50,6 +50,9 @@ public class Main {
     stack.push(10);
     stack.push(20);
     System.out.println("Stack= "+stack);
+    stack.pop();
+    System.out.println("stack after pop= "+stack);
+    System.out.println(stack.peek());//peek 1st one
     }
     
 }
