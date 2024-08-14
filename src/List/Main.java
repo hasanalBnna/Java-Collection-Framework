@@ -17,6 +17,14 @@ public class Main {
     list.add(2, 25);
     list.add("Banna");
     System.out.println(list);
+    
+    //specific data type
+    ArrayList<Integer> list2 = new ArrayList<>();
+    list2.add(10);
+    list2.add(20);
+    list2.add(30);
+    list2.add(1, 15);
+    System.out.println(list2);
     }
     
 }
