@@ -25,7 +25,8 @@ public class Main {
         lhset.add(2);
         lhset.add(10);
         System.out.println("LinkedHashSet= "+lhset);
-        
+        boolean bl = lhset.contains(2);// check 2 is present or not
+        System.out.println("2 is present not= "+bl);
     
     }
     
