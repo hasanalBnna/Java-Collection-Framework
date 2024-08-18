@@ -16,6 +16,8 @@ public class Main {
     queue.offer(50);
     System.out.println(queue);
     System.out.println("Q remove: "+queue.remove());
+    System.out.println(queue);
+
     }
     
 }
