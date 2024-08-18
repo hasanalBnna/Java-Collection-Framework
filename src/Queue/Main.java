@@ -17,6 +17,8 @@ public class Main {
     System.out.println(queue);
     System.out.println("Q remove: "+queue.remove());
     System.out.println(queue);
+    System.out.println("Q poll: "+queue.poll());
+    System.out.println(queue);
 
     }
     
